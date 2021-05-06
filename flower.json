@@ -1,0 +1,20 @@
+{
+  "nodes": ["flower_species", "color"],
+  "relations": {
+    "flower_species": {
+      "parents": [],
+      "probabilities": { "rose": 0.3, "iris": 0.3, "tulip": 0.4 }
+    },
+    "color": {
+      "parents": ["flower_species"],
+      "probabilities": {
+        "rose,red": 0.9,
+        "rose,blue": 0.1,
+        "iris,red": 0.3,
+        "iris,blue": 0.7,
+        "tulip,red": 0.6,
+        "tulip,blue": 0.4
+      }
+    }
+  }
+}
