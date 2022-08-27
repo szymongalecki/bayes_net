@@ -7,3 +7,5 @@ Write a program that is able to perform basic inference in Bayesian networks usi
 • is able to answer simple queries – i.e. it returns the probability distribution of the
 selected query variables,
 • allows you to set the number of steps performed by MCMC algorithm.
+
+## IN-PROGRESS
